@@ -11,6 +11,7 @@ services:
         environment:
             - REDIS_HOST=redis
             - NO_SSL=True
+            - HOST_OVERRIDE="pass.chst.cloud"
         depends_on:
           - redis
 
